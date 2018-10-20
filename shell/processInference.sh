@@ -42,6 +42,7 @@ do
             echo "don't process the file : "$file
         else
             tempFile=$inputBasePath"/"$file
+            #put tempFile to splitFileArray
             splitFileArray=(${splitFileArray[*]} $tempFile)
         fi
     fi
